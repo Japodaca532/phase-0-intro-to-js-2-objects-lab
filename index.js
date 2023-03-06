@@ -1,13 +1,11 @@
  const employee = {
-    name: 'Jac', 
-    streetAddress: '819 Amor St',
-}
+    name: 'Jac'
+    }
 
 function updateEmployeeWithKeyAndValue(employee, name, value){
     const newEmployee = {...employee};
     newEmployee['name'] = value;
     return newEmployee; 
-
 }    
   function destructivelyUpdateEmployeeWithKeyAndValue(employee, name, value){
     employee[name] = value;
