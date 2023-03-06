@@ -11,6 +11,6 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
 function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value) {
     return{
         name: 'Sam',
- streetAddres: '12 Broadway',
+ streetAddress: '12 Broadway',
 };
 }
