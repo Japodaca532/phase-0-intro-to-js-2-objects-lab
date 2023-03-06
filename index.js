@@ -3,9 +3,9 @@
     }
 
 function updateEmployeeWithKeyAndValue(employee, name, value){
-    const newEmployee = {...employee};
-    newEmployee['name'] = value;
-    return newEmployee; 
+    return{...employee,
+    [name]: value,
+  } 
 }    
   function destructivelyUpdateEmployeeWithKeyAndValue(employee, name, value){
     employee[name] = value;
