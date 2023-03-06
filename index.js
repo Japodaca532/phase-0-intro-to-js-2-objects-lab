@@ -8,6 +8,9 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
         [key]: value,
     };
 }
-function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value){
-const employee = 'Sam'
+function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value) {
+    return{
+        name: 'Jac',
+ streetAddres: '820 Amor St',
+};
 }
