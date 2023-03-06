@@ -1,4 +1,4 @@
-const employee = {
+ const employee = {
     name: 'Jac', 
     streetAddress: '819 Amor St',
 }
@@ -8,6 +8,6 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
         [key]: value,
     };
 }
-function destructivelyDeleteFromEmployeeByKey(employee,key){
-    let newEmployee = 'jamie'
+function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value){
+const employee = 'Sam'
 }
