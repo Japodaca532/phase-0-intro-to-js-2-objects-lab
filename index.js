@@ -10,7 +10,7 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
 }
 function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value) {
     return{
-        name: 'Jac',
- streetAddres: '820 Amor St',
+        name: 'Sam',
+ streetAddres: '12 Broadway',
 };
 }
