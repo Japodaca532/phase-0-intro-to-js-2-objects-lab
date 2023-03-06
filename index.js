@@ -3,16 +3,17 @@
     streetAddress: '819 Amor St',
 }
 
-function updateEmployeeWithKeyAndValue(employee, name, value){
+function updateEmployeeWithKeyAndValue(employee, key, value){
     const newEmployee = {...employee};
     newEmployee['name'] = value;
     return newEmployee; 
+    
 }    
-  function destructivelyUpdateEmployeeWithKeyAndValue(employee, name, value){
+  function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value){
     employee[name] = value;
     return employee;
   }
-function deleteFromEmployeeByKey(employee, name, value){
+function deleteFromEmployeeByKey(employee, key, value){
     const newEmployee = {employee};
     newEmployee[name] = value;
     delete newEmployee.name;
