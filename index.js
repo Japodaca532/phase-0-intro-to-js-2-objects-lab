@@ -16,3 +16,7 @@ function deleteFromEmployeeByKey(employee, name, value){
     delete newEmployee.name;
     return newEmployee;
 }
+function destructivelyDeleteFromEmployeeByKey (employee){
+    delete employee.name;
+    return employee;
+}
