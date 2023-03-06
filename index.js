@@ -8,3 +8,6 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
         [key]: value,
     };
 }
+function destructivelyDeleteFromEmployeeByKey(employee,key){
+    let newEmployee = 'jamie'
+}
